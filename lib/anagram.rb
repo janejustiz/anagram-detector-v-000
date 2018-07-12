@@ -5,4 +5,7 @@ class Anagram
     @name = name
   end
 
+  def self.match
+
+  end
 end
