@@ -4,5 +4,5 @@ class Anagram
   def initiative(name)
     @name = name
   end
-  
+
 end
