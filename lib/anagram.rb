@@ -1,11 +1,8 @@
 class Anagram
-  attr_accessor :name
+  attr_accessor :word
 
-  def initiative(name)
-    @name = name
+  def initialize(word)
+    @word = word
   end
 
-  def self.match
-
-  end
 end
