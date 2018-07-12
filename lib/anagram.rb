@@ -1,5 +1,8 @@
 class Anagram
-  def initiative(item)
-
+  attr_accessor :name
+  
+  def initiative(name)
+    @name = name
   end
+  
 end
