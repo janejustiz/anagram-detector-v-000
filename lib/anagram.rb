@@ -7,7 +7,7 @@ class Anagram
 
   def self.match(array)
     array.each do |item|
-      if @word.sort! = item.sort!
+      if @word.sort! == item.sort!
         return word
       end
     end
